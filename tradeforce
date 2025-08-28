@@ -407,7 +407,7 @@ updatePlayersList()
 
     -- Функция запуска TradeForce
     local function startTradeForce()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/daniklevik/gag/refs/heads/main/tradeforcegag"))()
+        loadstring(game:HttpGet())()
     end
 
     if isDelta then
